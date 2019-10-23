@@ -7,17 +7,15 @@ exports = module.exports = {
   datasets,
   algo: function (input) {
     // YOUR CODE BETWEEN HERE
-    let place = input[0]
-    let position = place.length;
+    let place = input[50]
+    let position = place.length
     
-    for(i = 50; i > position; i++){
-      if(place[i] = 100){
-        console.log(place)
-        
-      }
-    } 
-    
-    
+    place.forEach(element => {
+      let donnee = position.slice(2)
+      console.log(element)
+    });
+    return position
+
 
 
     // AND HERE
