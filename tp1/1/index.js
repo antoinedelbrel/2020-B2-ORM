@@ -7,6 +7,18 @@ exports = module.exports = {
   datasets,
   algo: function (input) {
     // YOUR CODE BETWEEN HERE
+    let place = input[0]
+    let position = place.length;
+    
+    for(i = 50; i > position; i++){
+      if(place[i] = 100){
+        console.log(place)
+        
+      }
+    } 
+    
+    
+
 
     // AND HERE
   },
